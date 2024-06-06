@@ -3,46 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../index.css" />
     <link rel="stylesheet" href="./home.css" />
-    <title>Golf Score Solutions</title>
+    <title>Golf Score Solutions | Home</title>
   </head>
 
   <body>
-    <nav>
-      <div>
-        <img src="" alt="navbar-brand" />
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="../../assets/Logo.png"
+          alt="navbar-brand-image"
+          width="100%"
+        />
       </div>
 
-      <ul>
-        <li><a href="" />Home</li>
-        <li><a href="" />About</li>
-        <li><a href="" />Contact</li>
+      <ul class="navbar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section id="home">
-        <div>
-          <h6>The Ultimate Golf Solution</h6>
-          <button type="button">Get Started</button>
+    <main class="main">
+      <section id="home" class="hero">
+        <div class="hero-segment-first">
+          <h1 class="hero-text">The Ultimate Golf Solution</h1>
+          <button class="hero-button" type="button" class="get start">
+            Get Started
+          </button>
         </div>
 
-        <div>
-          <img src="" alt="hero-image" />
+        <div class="hero-segment-first-image">
+          <img src="../../assets/Golf Course Image.png" alt="hero-image" />
         </div>
       </section>
 
-      <section id="about">
-        <div>
-          <img src="" />
+      <section id="about" class="about">
+        <div class="about-segment-first">
+          <img src="../../assets/list-check-solid 1.png" alt="score-icon" />
           <h3>Scoring and Score Management</h3>
           <p>
             Controlled system where the golf course score card can be management
           </p>
         </div>
-        <div>
-          <img src="" />
+
+        <div class="about-segment-second">
+          <img src="../../assets/qrcode-solid 1.png" alt="QRCode-icon" />
           <h3>Digital Access</h3>
           <p>
             Enable gold course users players to access scorecards/results
@@ -50,14 +64,45 @@
           </p>
         </div>
       </section>
+
+      <section class="description">
+        <div class="description-segment-first">
+          <img
+            src="../../assets/pexels-tyler-hendy-9620-54123 1.png"
+            alt="score-icon"
+          />
+        </div>
+
+        <div class="description-segment-second">
+          <p class="description-segment-second-text-first">
+            Integrated Management and Scoring System for Golf Courses
+          </p>
+          <p class="description-segment-second-text-second">
+            Golf Solution is an innovative software platform designed to
+            streamline the management of golf courses while enhancing the
+            playing experience for golfers.
+          </p>
+          <p class="description-segment-second-text-third">
+            This comprehensive system offers a dual benefit: it simplifies
+            administrative tasks for course managers and enriches the golfing
+            experience for players.
+          </p>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <div></div>
+    <footer class="footer">
+      <div class="footer-icon">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+      </div>
 
       <hr />
 
-      <p>Built with love 2024</p>
+      <p>Golf Score Solutions.. Built 2024 💚</p>
     </footer>
   </body>
 </html>

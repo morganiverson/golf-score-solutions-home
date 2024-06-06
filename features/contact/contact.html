@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../home/home.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Golf Score Solutions | Contact</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="../../assets/Logo.png"
+          alt="navbar-brand-image"
+          width="100%"
+        />
+      </div>
+
+      <ul class="navbar-links">
+        <li><a href="../home/home.html#home">Home</a></li>
+        <li><a href="../home/home.html#about">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="form-wrapper">
+      <main class="form">
+        <form>
+          <div class="form-name">
+            <label
+              >First Name
+              <input type="text" id="firstName" name="firstName" required
+            /></label>
+
+            <label
+              >Last Name
+              <input type="text" id="lastName" name="lastName" required
+            /></label>
+          </div>
+
+          <label
+            >Email <input type="email" id="email" name="email" required
+          /></label>
+
+          <label
+            >How many golf courses do you have ?
+            <input type="number" id="golfCourses" name="golfCourses" min="0"
+          /></label>
+
+          <label
+            >Message
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              required
+              aria-required="true"
+            ></textarea>
+          </label>
+
+          <button class="submit-button">Submit Form</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

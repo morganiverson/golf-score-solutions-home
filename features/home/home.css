@@ -1,0 +1,138 @@
+.navbar {
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .navbar-brand {
+  width: 70px;
+}
+
+.navbar-links {
+  align-self: center;
+}
+
+.navbar-links li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: black;
+}
+
+.navbar-links a:hover {
+  background: #f9e20b;
+  border-radius: 5px;
+}
+
+.navbar-links a:active,
+.navbar-links a:visited {
+  background: #f9e20b;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+  height: calc(100vh - 150px);
+}
+
+.hero .hero-segment-first {
+  margin-left: 100px;
+}
+
+.hero .hero-segment-first-image {
+  width: 55%;
+}
+
+.hero .hero-segment-first-image img {
+  display: block;
+  width: 100%;
+}
+
+.hero .hero-text {
+  margin-top: 100px;
+  font-size: 100px;
+}
+
+.hero .hero-button {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background: #076a46;
+  border: none;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 40px;
+  text-align: center;
+  width: 400px;
+  padding: 10px 10px;
+  box-shadow: 3px 2px 9px black;
+  display: block;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.about {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+  text-align: center;
+}
+
+.about .about-segment-first,
+.about .about-segment-second {
+  width: 30%;
+}
+
+.about h3 {
+  color: #977601;
+}
+
+.about p {
+  font-weight: 200;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.description .description-segment-first {
+  flex: 2;
+}
+
+.description .description-segment-second {
+  font-weight: 300;
+  text-align: justify;
+  flex: 3;
+  height: fit-content;
+  align-self: center;
+}
+
+.description-segment-second-text-second,
+.description-segment-second-text-third {
+  margin-top: 30px;
+}
+
+.footer {
+  background: white;
+  padding: 50px;
+}
+
+.footer-icon {
+  text-align: center;
+  font-size: 30px;
+}
+.footer p {
+  text-align: center;
+}

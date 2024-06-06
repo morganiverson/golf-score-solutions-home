@@ -7,7 +7,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 80%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -19,23 +19,5 @@ html {
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-  font-weight: 600;
-}
-
-@media screen and (min-width: 900px) {
-  html {
-    font-size: 90%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  html {
-    font-size: 100%;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  html {
-    font-size: 110%;
-  }
+  background: #f6fff7;
 }
